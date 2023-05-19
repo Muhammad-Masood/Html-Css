@@ -1,0 +1,82 @@
+/* type selector */
+h1{
+    color: blue;
+}
+
+/* Universal Selector, Applies CSS on all available Tags */
+
+*{
+    background-color: black;
+    color: white;
+}
+
+.p1{
+    color: violet;
+}
+
+/* #id{
+
+} */
+
+/* p.p1{
+    color: aliceblue;
+} */
+
+
+/* child selector */
+/* li>a{ //only child with tag 'a' will be affected
+    color: yellow;
+} */
+
+li a{
+    color: red;
+}
+
+/* siblings selector */
+/* h1~p{
+    color: magenta;
+} */
+
+/* *{
+    color: black;
+    background-color: wheat;
+} */
+
+
+
+/* higher preference */
+
+/* h1{
+    background-color: black !important;  
+} */
+
+/* h1{
+    background-color: yellow;
+} */
+
+*{
+    /* background-color: rgb(200,250,100); */
+    background-color: black;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.box2{
+    margin-top: -55px;
+    margin-left: 35px;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* 3 types of colors -> rgb values, hex codes and color names */
+
+h1{
+    font-size: 50px;
+    text-transform: lowercase;
+}

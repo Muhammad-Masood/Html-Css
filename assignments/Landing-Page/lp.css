@@ -1,0 +1,70 @@
+body{
+    background-color: beige;
+}
+
+/* .header{
+    background-color: yellow;
+    
+} */
+
+.h{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 59);
+}
+
+.home{
+    padding-left: 1000px;
+    margin-right: 40px;
+}
+
+.about{
+    margin-right: 50px;
+}
+
+.contact{
+
+}
+
+.sec1{
+    color: aliceblue;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+
+.sec2{
+    background-color: blue;
+    width: 500px;
+    /* margin-left: 500px; */
+    height: 500px;
+}
+
+h2{
+    text-align: center;
+}
+
+.img1{
+    width: 530px;
+    height: 320px;
+}
+
+.img2{
+    width: 530px;
+    height: 530px;
+}
+
+.images{
+    text-align: center;
+    background-color:rgb(255, 241, 236);
+}
+
+.footer{
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: rgb(255, 238, 238);
+    height: 150px;
+}
