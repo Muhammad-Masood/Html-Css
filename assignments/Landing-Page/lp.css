@@ -2,34 +2,45 @@ body{
     background-color: beige;
 }
 
-/* .header{
-    background-color: yellow;
-    
-} */
 
-.h{
+/* .h{
     padding-top: 30px;
     padding-left: 50px;
-}
+} */
 
 .navbar{
     background-color: rgb(255, 255, 59);
+    padding: 10px;
+    display: flex;
 }
 
-.home{
-    padding-left: 1000px;
-    margin-right: 40px;
+.navbar h1{
+    margin-right: 800px;
 }
 
-.about{
-    margin-right: 50px;
+.navbar a{
+    margin-right: 35px;
+    margin-top: 26px;
 }
 
-.contact{
-
+.desc{
+    text-align: center;
+    padding: 50px;
 }
 
-.sec1{
+.desc p{
+    font-size: 18px;
+}
+
+.desc ul{
+    list-style: none;
+}
+
+.desc li{
+    margin-bottom: 10px;
+}
+
+.desc h1{
     color: aliceblue;
     background-color: black;
     width: 500px;
@@ -67,4 +78,10 @@ h2{
     padding-top: 30px;
     background-color: rgb(255, 238, 238);
     height: 150px;
+    text-align: center;
+}
+
+.subscribe{
+    font-style: oblique;
+    font-weight: bold;
 }
